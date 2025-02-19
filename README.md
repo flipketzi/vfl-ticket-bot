@@ -30,7 +30,7 @@ To get the bot running, follow these few steps.
 
 ### Prerequisites
 
-You might want to look at _Anaconda_ for managing your python packages. A basic instruction can be easily found online.
+You might want to look at _Anaconda_ for managing your python packages. A basic instruction can be easily found online. Install it. Please.
 
 ### Installation
 
@@ -38,6 +38,14 @@ You might want to look at _Anaconda_ for managing your python packages. A basic 
 1. Clone the repo
    ```sh
    git clone https://https://github.com/flipketzi/vfl-ticket-bot.git
+   ```
+2. Create an anaconda environment
+   ```sh
+   conda create --name <env> --file requirements.txt
+   ```
+3. Activate anaconda environment if it's not already activated
+   ```sh
+   conda activate <env>
    ```
 2. Create a config.py
    ```python
@@ -75,6 +83,17 @@ You might want to look at _Anaconda_ for managing your python packages. A basic 
     }
 
 3. Run main.py
+    ```sh
+    python main.py
+    ```
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Notes
+
+Obviously this isn't a project defined by clean code. This is more of a quick and dirty solution of a problem, that occured to me and which was pretty annoying at the time.
+
+Use responsibly!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
